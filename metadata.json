@@ -1,0 +1,7 @@
+{
+  "name": "Flow Energy - General Trading",
+  "description": "Premium industrial supplies specializing in instrumentation, fittings, valves, and pneumatics for the oil & gas industry.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
