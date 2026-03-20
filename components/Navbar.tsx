@@ -14,7 +14,7 @@ const Logo = ({ isScrolled }: { isScrolled: boolean }) => (
     <img 
       src={COMPANY_DETAILS.logo} 
       alt="Flow Energy Logo" 
-      className="h-10 md:h-12 lg:h-16 w-auto object-contain block"
+      className="h-8 md:h-9 lg:h-10 w-auto object-contain block"
       onError={(e) => {
         // Fallback to text if the image fails to load
         (e.target as HTMLImageElement).style.display = 'none';
