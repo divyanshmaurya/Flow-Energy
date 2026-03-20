@@ -7,7 +7,7 @@ const FooterLogo = () => (
     <img 
       src={COMPANY_DETAILS.logo} 
       alt="Flow Energy Logo" 
-      className="h-12 md:h-20 w-auto object-contain block" 
+      className="h-8 md:h-10 w-auto object-contain block" 
       onError={(e) => {
         (e.target as HTMLImageElement).style.display = 'none';
         const parent = (e.target as HTMLImageElement).parentElement;
